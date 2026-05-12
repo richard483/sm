@@ -1,0 +1,17 @@
+{
+  "name": "gemini-simple-image-gen",
+  "version": "1.0.0",
+  "description": "A simple, secure Gemini Image Generation API and Web UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.2",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

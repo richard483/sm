@@ -1,0 +1,15 @@
+# Ignore local environment files so they are NOT baked into the image
+.env
+.env.*
+
+# Ignore local node_modules (Docker will install its own Linux-optimized ones)
+node_modules
+npm-debug.log
+
+# Ignore git history
+.git
+.gitignore
+
+# Ignore the Dockerfile itself
+Dockerfile
+.dockerignore
